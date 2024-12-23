@@ -1,0 +1,57 @@
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+import random
+game_list = [rock, paper, scissors]
+my_choice = input("What do you choose? Type 0 for Rock, 1 for Paper, and 2 for Scissors.\n")
+computer_choice = random.choice(game_list)
+
+#Choosing rock
+if my_choice == "0" and computer_choice == rock:
+    print(rock, "Computer chose 'Rock'", rock, "It's a draw")
+elif my_choice == "0" and computer_choice == paper:
+    print(rock, "Computer chose 'Paper'", paper, "You lose")
+elif my_choice == "0" and computer_choice == scissors:
+    print(rock, "Computer chose 'Scissors'", scissors, "You win!")
+#Choosing paper
+elif my_choice == "1" and computer_choice == paper:
+    print(paper, "Computer chose 'Paper'", paper, "It's a draw")
+elif my_choice == "1" and computer_choice == rock:
+    print(paper, "Computer chose 'Rock'", rock, "You win!")
+elif my_choice == "1" and computer_choice == scissors:
+    print(paper, "Computer chose 'Scissors'", scissors, "You lose")
+#Choosing scissors
+elif my_choice == "2" and computer_choice == scissors:
+    print(scissors, "Computer chose 'Scissors'", scissors, "It's a draw")
+elif my_choice == "2" and computer_choice == rock:
+    print(scissors, "Computer chose 'Rock'", rock, "You lose")
+elif my_choice == "2" and computer_choice == paper:
+    print(scissors, "Computer chose 'Paper'", paper, "You Win!")
+# The dummy person entered a number that isn't rock, paper, or scissors.
+else:
+    print("Joey, you can't choose fire. Fire doesn't beat water balloon anyway! :)")
+    
