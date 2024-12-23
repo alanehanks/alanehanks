@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @alanehanks
 - 👀 I’m interested in data in general. I've worked as a data analyst, data architect, and data management consultant.
-- 🌱 I’m currently learning more technical skills related to data including ETL and data pipelines, data engineering, and configuration management.
+- 🌱 I’m currently learning more technical skills related to data including ETL, data pipelines and data engineering, as well as programming and query languages. (Python and SQL, specifically)
 - 💞️ I’m looking to collaborate on all things mentioned above.
 - ⚡ Fun fact: I'm the best worst golfer
 
